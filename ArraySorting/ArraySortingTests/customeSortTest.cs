@@ -13,7 +13,8 @@ namespace ArraySortingTests
         {
             int[] inArray = { 23, 76, 12, 43, 90, 30 };
             int[] outArray = { 12, 23, 30, 43, 76, 90 };
-           // Array.Sort(inArray, new customeSort());
+            //this method is broken for now
+           //Array.Sort(inArray, new customeSort());
             Assert.AreEqual(inArray, outArray);
         }
     }
