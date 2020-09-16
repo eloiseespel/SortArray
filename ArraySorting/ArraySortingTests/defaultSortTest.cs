@@ -13,7 +13,7 @@ namespace ArraySortingTests
             int[] intArray = { 23, 76, 12, 43, 90, 30 };
             int[] outArray = { 12, 23, 30, 43, 76, 90};
             Array.Sort(strArray);
-            AreEqual(intArray, outArray);
+            Assert.AreEqual(intArray, outArray);
         }
     }
 }
