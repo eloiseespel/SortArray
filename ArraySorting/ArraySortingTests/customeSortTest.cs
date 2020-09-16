@@ -14,7 +14,7 @@ namespace ArraySortingTests
             int[] inArray = { 23, 76, 12, 43, 90, 30 };
             int[] outArray = { 12, 23, 30, 43, 76, 90 };
             //this method is broken for now
-            //I will be fixing this soon
+            //I'm fixing this right now
            //Array.Sort(inArray, new customeSort());
             Assert.AreEqual(inArray, outArray);
         }
