@@ -17,8 +17,8 @@ namespace ArraySorting
         {
             String[] strArray = { "I", "Am", "Learning", "Array", "Sorting", "In", "C#" };
             int[] intArray = { 23, 76, 12, 43, 90, 30 };
-            Array.Sort(strArray, new DescendingComparer());
-            Array.Sort(intArray, new DescendingComparer());
+            Array.Sort(strArray, new customeSort());
+            Array.Sort(intArray, new customeSort());
             Console.WriteLine("Sorted String Array in Descending Order:\n");
             DisplayArray(strArray);
             Console.WriteLine("\n\n\nSorted Integer Array in Desc Order:\n");
